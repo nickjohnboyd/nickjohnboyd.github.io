@@ -513,12 +513,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-h1 {
-  color: blue;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
-.main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
