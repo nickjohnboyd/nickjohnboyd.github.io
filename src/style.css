@@ -39,3 +39,8 @@ h1 {
     color: white;
     font-weight: bold;
 }
+.project-list {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
