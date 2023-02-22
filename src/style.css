@@ -12,7 +12,7 @@ h1 {
     justify-content: space-between;
     flex-direction: row;
     background-color: darkslategray;
-    height: 800px;
+    height: 840px;
 }
 .navbar {
     display: flex;
