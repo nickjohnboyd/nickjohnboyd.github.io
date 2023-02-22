@@ -97,9 +97,6 @@ body {
 
 
 
-.cont-left {
-    /* background-color: lightpink; */
-}
 .cont-left-in {
     display: flex;
     align-items: center;
