@@ -1,3 +1,41 @@
+body {
+    margin: 0;
+}
+
 h1 {
     color: red;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: darkslategray;
+    height: 800px;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+.nav-el {
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: white;
+}
+.content {
+    width: 10%;
+    line-height: 2.5;
+    margin-right: 20px;
+    color: white;
+}
+.name-title {
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
