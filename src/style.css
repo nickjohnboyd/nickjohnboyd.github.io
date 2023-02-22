@@ -10,7 +10,7 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: darkslategray;
-    height: 830px;
+    height: 100vh;
 }
 .navbar {
     display: flex;
