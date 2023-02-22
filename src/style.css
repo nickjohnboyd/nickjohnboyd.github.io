@@ -2,42 +2,67 @@ body {
     margin: 0;
 }
 
-h1 {
-    color: red;
-}
-
 .main {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     background-color: darkslategray;
     height: 840px;
 }
 .navbar {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-self: flex-start;
-    margin-left: 10px;
-}
-.nav-el {
-    margin-bottom: 5px;
-    text-decoration: none;
-    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+    margin-bottom: 100px;
+    width: 100%;
 }
 .content {
     width: 10%;
     line-height: 2.5;
     margin-right: 20px;
     color: white;
+    background-color: blue;
+}
+
+
+
+.nav-left {
+    display: flex;
+    background-color: gold;
+}
+.nav-right {
+    background-color: lightsalmon;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightcoral;
+}
+
+.logo {
+    height: 25px;
+}
+.nav-right > a {
+    text-decoration: none;
+    margin: 10px;
+}
+.nav-el {
+    text-decoration: none;
+    color: white;
 }
 .name-title {
-    font-size: 50px;
-    margin-bottom: 40px;
+    font-size: 60px;
     text-decoration: none;
     color: white;
     font-weight: bold;
+    margin-right: 40px;
 }
 .project-list {
     display: flex;
