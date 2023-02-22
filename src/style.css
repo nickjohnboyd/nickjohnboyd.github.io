@@ -3,6 +3,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 .main {
     display: flex;
     align-items: center;
@@ -24,7 +26,6 @@ body {
     width: 100%;
     color: white;
     justify-content: space-between;
-    /* background-color: blue; */
     height: 100%;
 }
 
@@ -32,11 +33,12 @@ body {
 
 .nav-left {
     display: flex;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .nav-right {
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 
 
@@ -49,13 +51,12 @@ body {
 .logo {
     height: 30px;
 }
-.nav-right > a {
-    text-decoration: none;
-    margin: 10px;
-}
 .nav-el {
     text-decoration: none;
     color: darkslategray;
+}
+.nav-el:hover {
+    text-decoration: underline;
 }
 .name-title {
     font-size: 60px;
@@ -75,42 +76,21 @@ body {
     background-color: white;
     border-radius: 10px;
 }
-.project-list > a {
-    color: darkslategray;
-    text-decoration: none;
-}
-.project-list > a:hover {
-    text-decoration: underline;
-}
 .arrow {
-    font-size: 50px;
-    /* margin-bottom: 40px; */
+    font-size: 60px;
 }
 .rotated-arrow {
     transform: rotate(90deg);
-    /* background-color: orange; */
     font-size: 100px;
     margin-left: 100px;
-    /* height: 50px; */
 }
 
 
 
 
-.cont-left-in {
-    display: flex;
-    align-items: center;
-    /* background-color: greenyellow; */
-}
-.cont-left-in > p {
-    margin-top: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
 .cont-mid-1 {
     display: flex;
     align-items: flex-end;
-    /* background-color: gold; */
     width: 20%;
     line-height: 2.5;
     text-align: center;
@@ -119,22 +99,45 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: lightskyblue; */
 }
 .cont-right {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: lightcoral; */
     width: 20%;
+}
+.cont-left-in {
+    display: flex;
+    align-items: center;
 }
 
 
 
+
+.project-list > a {
+    color: darkslategray;
+    text-decoration: none;
+}
+.project-list > a:hover {
+    text-decoration: underline;
+}
+
+
+.cont-left-in > p {
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
 .cont-mid-1 > p {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .cont-mid-2 > p {
     margin-top: 200px;
     /* font-size: 18px; */
+}
+
+
+.nav-right > a {
+    text-decoration: none;
+    margin: 10px 10px 5px 10px;
 }
